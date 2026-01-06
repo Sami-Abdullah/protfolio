@@ -28,12 +28,14 @@
 /* main style */
 header{
   background-color: #FFF8F3;
+  background: url("../images/developer.png"),url(../images/header_bg.png), #FFF8F3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat ;
   padding-top:50px;
 }
 nav{
   width:71%;
   max-width:1140px;
-  border: 1px solid tomato;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -49,4 +51,43 @@ nav .menu a{
   text-decoration: none;
   color:#474747;
   font-size: 20px;
+}
+#banner{
+  /* border: 1px solid black; */
+
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content{
+  max-width: 585px;
+}
+#banner .banner-content h2{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+#banner .banner-content h1{
+  color: #181818;
+  font-size: 85px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+#banner .banner-content p{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+.no{
+  border:1px solid #FD6E0A;
+  background-color: #FFF8F3;
+  color: #FD6E0A;
+  margin-left: 30px;
+}
+#banner img{
+  max-width: 585px;
+  vertical-align: middle;
 }
